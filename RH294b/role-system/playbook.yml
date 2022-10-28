@@ -1,0 +1,12 @@
+---
+  - name: Running roles
+    hosts: servera.lab.example.com
+    vars:
+        timesync_ntp_servers:
+          - hostname: classroom.lab.example.com
+            iburst: yes
+
+    roles:
+    - rhel-system-roles.timesync
+    - role.mysql
+

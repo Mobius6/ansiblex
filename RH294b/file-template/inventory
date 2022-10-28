@@ -1,0 +1,8 @@
+[webservers]
+servera.lab.example.com class=prod
+serverb.lab.example.com class=prod
+serverc.lab.example.com class=dev
+serverd.lab.example.com class=dev
+
+[workstations]
+workstation.lab.example.com

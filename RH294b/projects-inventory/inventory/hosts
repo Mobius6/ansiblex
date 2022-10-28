@@ -1,0 +1,13 @@
+[webservers]
+
+[dbservers]
+
+[appservers]
+
+[virtualservers]
+
+[servers:children]
+webservers
+dbservers
+appservers
+virtualservers
